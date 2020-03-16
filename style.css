@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 6em;
+    margin: -10px;
+}
+
+h2 {
+    padding: 0px;
+}
+
+#logoSkilleos {
+    width: 120px;
+    margin: 2% 0 2% 20%;
+}
+
+#content {
+    margin: auto;
+    width: 60%;
+    height: 280px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#textContent {
+    display: inline-block;
+    margin: 20px 200px 0 50px;
+    text-align: justify;
+}
+
+
+#imgContent {
+    background-image: url(Home-Skilleos.png);
+    background-size: 260px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width : 170px;
+    height : 170px;
+    border-radius : 85px;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+button {
+    background-color: rgb(204, 0, 0);
+    border-radius: 15px;
+    border: none;
+    color: white;
+    height: 30px;
+    width: 190px;
+    text-transform: uppercase;
+}
+@media only screen and (max-width: 768px) {
+    br {
+        display: none;
+    }
+    h1 {
+        font-size: 4em;
+    }
+    h2 {
+        font-size: 1.15em;
+        text-align: center;
+    }
+    #logoSkilleos {
+        margin-left: 30%;
+    }
+    #textContent {
+        margin-left: auto;
+        text-align: center;
+    }
+    #content {
+        height: 400px;
+        border-radius: 15px;
+    }
+    button {
+        margin-bottom: 25px;
+        margin-left: 10px;
+    }
+    #imgContent {
+        margin-left: 15px;
+    }
+}
+
+
+
